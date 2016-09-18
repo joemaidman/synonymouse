@@ -5,10 +5,10 @@ Artifically expanding your vocabulary. A web based thesaurus using the Big Huge 
 
 Displays:
 
-1) Synonyms 
-2) Similar words 
-3) Related words 
-4) Antonyms
+- Synonyms
+- Similar words 
+- Related words 
+- Antonyms
 
 Responsive design for mobile interfaces.
 
