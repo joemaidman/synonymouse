@@ -1,2 +1,3 @@
-# synonymouse
+Synonymouse
+============
 Artifically expanding your vocabulary
