@@ -1,0 +1,86 @@
+html {
+    text-align: center;
+    width: 100%;
+    background-color: #394E25;
+}
+body {
+    text-align: center;
+    width: 100%;
+    background-color: #394E25;
+}
+
+#tempText{
+
+    font-style:italic;
+     height: 0px;
+    visibility: collapse;
+}
+#synDiv,
+#simDiv,
+#relDiv,
+#antDiv{
+    height: 0px;
+    visibility: collapse;
+}
+#spinnerDiv{
+    height: 0px;
+    visibility: collapse;
+    position: relative;
+}
+a {
+    color: white;
+    padding-left: 10px;
+}
+a:hover {
+    color: #222222;
+    cursor: hand;
+}
+.table {
+    background: #808080;
+    
+
+}
+td {
+    font-size: 15px;
+    background-color: #24384E;
+}
+th {
+    font-size: 15px;
+}
+hr {
+    visibility: hidden;
+}
+.container-fluid {
+    width: 70%;
+    text-align: center;
+}
+@media (max-width: 1260px) {
+    .container-fluid {
+        width: 100%;
+    }
+    
+}
+
+.row {
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+.btn-default {
+    background: #222222;
+}
+.form-control {
+    background-color: gray;
+    color: white;
+}
+.btn-caution {
+    background-color: #222222;
+    color: white;
+    border-color: white;
+    width: 250px;
+}
+
+.input-group{
+
+
+}

@@ -1,0 +1,85 @@
+<html>
+<title>Synonymouse</title>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script src="spin.js"></script>
+
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+<link href="theme.min.css" rel="stylesheet">
+<link href="customcss.css" rel="stylesheet">
+
+<link rel="icon" type="image/png" href="favicon.png">
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <br>
+            <a href="http://synonymouse.netlify.com/"><img src="mouseLogo.png"></img></a>
+            <br>
+            <p>
+                <h1>Synonymouse</h1>
+                <h5>Artifically expanding your vocabulary</h5>
+            </P>
+            <br>
+            <br>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="input-group">
+                        <input id="word" type="text" class="form-control" placeholder="Search for..." autofocus>
+                        <span class="input-group-btn">
+                            <button class="btn btn-default" type="button" id="btnGetWords">Go!</button>
+                        </span>
+                    </div>
+                </div>
+                <br>
+                <div class="row" id="spinnerDiv">
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <p id="spinner"></p>
+                </div>
+                <div class="row" id="tempText">
+                    <br>
+                    <h5 id="tempTextValue"></h5>
+                </div>
+                
+                <div class="row" id="results">
+                    <div id="synDiv" class="col-md-3">
+                        <h3>Synonyms</h3>
+                        <table id="synTable" class="table table-hover"></table>
+                    </div>
+                    <div id="simDiv" class="col-md-3">
+                        <h3>Similar</h3>
+                        <table id="simTable" class="table table-hover"></table>
+                    </div>
+                    <div id="relDiv" class="col-md-3">
+                        <h3>Related</h3>
+                        <table id="relTable" class="table table-hover"></table>
+                    </div>
+                    <div id="antDiv" class="col-md-3">
+                        <h3>Antonyms</h3>
+                        <table id="antTable" class="table table-hover"></table>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <div class="row">
+                    <div class="col-md-12">
+                        <a href="http://www.github.com" target="_blank" title="View source on GitHub"><i class="fa fa-github fa-2x"></i></a>
+                        <a href="http://www.github.com" target="_blank" title="More information"><i class="fa fa-gears fa-2x"></i></a>
+                        <br>
+                        <br>
+                    </div>
+                </div>
+            </div>
+            </div>
+            </div>
+</body>
+<script type="text/javascript" src="app.js"></script>
+</html>
