@@ -1,7 +1,16 @@
 Synonymouse
 ============
 
-Artifically expanding your vocabulary. A web based thesaurus using the Big Huge Thesaurus API (https://words.bighugelabs.com/). Displays 1) Synonyms 2) Similar words 3) Related words 4) Antonyms. Responsive design for mobile interfaces.
+Artifically expanding your vocabulary. A web based thesaurus using the Big Huge Thesaurus API (https://words.bighugelabs.com/). 
+
+Displays:
+
+1) Synonyms 
+2) Similar words 
+3) Related words 
+4) Antonyms
+
+Responsive design for mobile interfaces.
 
 ============
 
