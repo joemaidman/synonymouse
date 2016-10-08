@@ -27,7 +27,7 @@ Tools / Software
 
 Sublime Text 3 (http://www.sublimetext.com/) for code editing
 
-XAMPP (https://www.apachefriends.org/index.html) as local web server for testing)
+XAMPP (https://www.apachefriends.org/index.html) as local web server for testing
 
 ============
 
